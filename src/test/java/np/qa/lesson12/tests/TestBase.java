@@ -17,10 +17,10 @@ public class TestBase {
         //Configuration.startMaximized = true;
         //Configuration.holdBrowserOpen = true;
 
-//        String user = System.getProperty("user");
-//        String pass = System.getProperty("pass");
-//        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
-//        Configuration.remote = "https://" + user + ":" + pass + "@" + remoteUrl;
+        String user = System.getProperty("user");
+        String pass = System.getProperty("pass");
+        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = "https://" + user + ":" + pass + "@" + remoteUrl;
 
 //        Configuration.browser = System.getProperty("browser");
 //        Configuration.browserVersion = System.getProperty("browserVersion");
